@@ -1,0 +1,3 @@
+Just me learning Spark, nothing useful is planned to be here...
+
+After spending hours trying to get gradle to pull from Maven, I gave up and found an example using sbt
