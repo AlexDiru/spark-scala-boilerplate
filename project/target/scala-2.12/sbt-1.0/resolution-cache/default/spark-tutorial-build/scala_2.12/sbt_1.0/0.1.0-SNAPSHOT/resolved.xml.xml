@@ -4,7 +4,7 @@
 		module="spark-tutorial-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180806224813"
+		publication="20180808191843"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

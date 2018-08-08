@@ -1,3 +1,4 @@
-Just me learning Spark, nothing useful is planned to be here...
+Boilerplate for a Spark project
 
-After spending hours trying to get gradle to pull from Maven, I gave up and found an example using sbt
+sbt==1.1.2
+scala==2.11.2
