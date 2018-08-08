@@ -9,7 +9,7 @@ object SparkApplication extends App {
   val sc = new SparkContext(conf)
 
   // Load the text into a Spark RDD, which is a distributed representation of each line of text
-  val textFile = sc.textFile("shakespeare.txt")
+  val textFile = sc.textFile(getClass.getResource("shakespeare.txt").getFile)
 
   //word count
   val counts = textFile.flatMap(line => line.split(" "))
@@ -18,5 +18,4 @@ object SparkApplication extends App {
 
   counts.foreach(println)
   System.out.println("Total words: " + counts.count());
-  counts.saveAsTextFile("/tmp/shakespeareWordCount");
 }
